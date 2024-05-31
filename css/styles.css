@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('assets/fonts/HELVETICANEUE-THIN.OTF') format('opentype');
+    font-weight: 100;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #445afb, #0085ff, #00a5ff, #00bef4, #63d3e3);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'CustomFont', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol {
+    flex-direction: column;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    background-color: #bdbdbd;
+}
+
+.main-section {
+    width: 100%;
+    height: 90vh;
+}
